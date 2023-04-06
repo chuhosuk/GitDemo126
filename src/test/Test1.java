@@ -1,13 +1,11 @@
 package test;
 
-import java.util.Scanner;
-
 public class Test1 {
 	
 public static void main(String[] args) {
 		
 		
-		int score = 0;
+		int score = 0; 
 		String result = "";
 		
 		if((score>100) || (score<0)) {
