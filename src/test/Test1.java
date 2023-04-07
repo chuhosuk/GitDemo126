@@ -5,8 +5,9 @@ public class Test1 {
 public static void main(String[] args) {
 		
 		
-		int score = 0;  
+		int score = 75;  
 		String result = "";
+		String branch_name = "BranchX";
 		
 		if((score>100) || (score<0)) {
 			System.out.println(score + "은(는)잘못된 점수입니다.");
@@ -34,7 +35,8 @@ public static void main(String[] args) {
 				result = "F.";
 			}
 	
-			System.out.println("점수:"+score+"학점:"+result);
+			System.out.println("점수:"+score + "\t학점:"+result);
+			System.out.println("branch_name : " + branch_name);
 		}
 		
 	}
